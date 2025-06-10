@@ -1,0 +1,6 @@
+[submodule "external/knitout-frontend-py"]
+	path = external/knitout-frontend-py
+	url = https://github.com/textiles-lab/knitout-frontend-py.git
+[submodule "external/knitout-backend-kniterate"]
+	path = external/knitout-backend-kniterate
+	url = https://github.com/textiles-lab/knitout-backend-kniterate.git
