@@ -1,0 +1,14 @@
+# pyproject.toml  (root of your repo)
+[tool.poetry]
+name = "procedural-knits"
+version = "0.1.0"
+description = "Noise-driven knitting generator"
+authors = ["You <you@example.com>"]
+
+# list the external file(s) you want to ship
+packages = [
+  { include = "knitout.py", from = "external/knitout-frontend-py" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.11"
